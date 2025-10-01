@@ -1,3 +1,4 @@
+import Likes from "../../components/Likes/Likes";
 import Title from "../../components/Title/Title";
 import Saturn from "./saturn.jpeg";
 
@@ -9,6 +10,7 @@ const About = () => {
           <div className="flex flex-col max-w-[60%]">
             <img src={Saturn} alt="saturn" className="w-full rounded-md" />
             <Title />
+            <Likes/>
           </div>
         </div>
       </div>
