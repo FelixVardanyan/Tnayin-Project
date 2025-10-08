@@ -26,7 +26,7 @@ function SingleComment({data}){
 
         return (
             <form onSubmit={handleUpdate} className="comment-item">
-                <span onClick={handleDelete} className="comment-item-delete">X</span>
+                <span onClick={handleDelete} className="comment-item-delete">X </span>
                 <input type="text" value={commentText} onChange={hendleInput}/>
                 <input type="submit" hidden/>
             </form>
